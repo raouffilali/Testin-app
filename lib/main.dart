@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:testing_app/Login_Screen.dart';
+import 'package:testing_app/users-screen.dart';
 
 import 'LoginPage.dart';
 import 'messengerScreen.dart';
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
     // ignore: prefer_const_constructors
     return MaterialApp(
       // ignore: prefer_const_constructors
-      home: MessengerScreen(),
+      home: UserScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
