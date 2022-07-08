@@ -39,6 +39,7 @@ class LoginScreen extends StatelessWidget {
                     onSubmitted: (String value) {
                       print('Submitted');
                     },
+                    textInputAction: TextInputAction.next,
                     keyboardType: TextInputType.emailAddress,
                     decoration: InputDecoration(
                       labelText: 'Email Address',
