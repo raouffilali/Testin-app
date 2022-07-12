@@ -3,6 +3,7 @@ import 'package:testing_app/Login_Screen.dart';
 import 'package:testing_app/users-screen.dart';
 
 import 'LoginPage.dart';
+import 'bmi-result-screen.dart';
 import 'bmi-screen.dart';
 import 'counter-screen.dart';
 import 'messengerScreen.dart';
