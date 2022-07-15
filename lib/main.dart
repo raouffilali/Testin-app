@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:testing_app/Login_Screen.dart';
-import 'package:testing_app/users-screen.dart';
-
-import 'LoginPage.dart';
-import 'bmi-result-screen.dart';
-import 'bmi-screen.dart';
-import 'counter-screen.dart';
-import 'messengerScreen.dart';
+import 'package:testing_app/modules/Login/Login_Screen.dart';
+import 'package:testing_app/modules/users/users-screen.dart';
+import 'modules/BMI_result/bmi-result-screen.dart';
+import 'modules/BMI/bmi-screen.dart';
+import 'modules/counter/counter-screen.dart';
+import 'modules/messenger/messengerScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +18,7 @@ class MyApp extends StatelessWidget {
     // ignore: prefer_const_constructors
     return MaterialApp(
       // ignore: prefer_const_constructors
-      home: BmiScreen(),
+      home: LoginScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
